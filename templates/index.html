@@ -17,6 +17,7 @@
      <link rel="stylesheet" href="{{url_for('static',filename='css/owl.theme.default.min.css')}}">
      <link rel="stylesheet" href="{{url_for('static',filename='css/mail.css')}}">
      <link rel="stylesheet" href="{{url_for('static',filename='css/clip.css')}}">
+     <link rel="stylesheet" href="{{url_for('static',filename='css/drop.css')}}">
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="{{url_for('static',filename='css/tooplate-ben-resume-style.css')}}">
@@ -55,8 +56,13 @@ https://www.tooplate.com/view/2120-ben-resume
                     <li class="nav-item">
                         <a href="#contact" class="nav-link smoothScroll">Contact</a>
                     </li>
-                    <li class="nav-item">
-                      <a href="/notebook" class="nav-link smoothScroll">Data_Analysis</a>
+                    <li class="dropdown">
+                      <a href="#" class="nav-link smoothScroll">Data_Analysis</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/notebook">IPL</a></li>
+                        <li><a href="/note">Mobile_Sales</a></li>
+                        <li><a href="#">Statistical Analysis</a></li>
+                      </ul>
                   </li>
                 </ul>
 

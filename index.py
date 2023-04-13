@@ -39,4 +39,10 @@ def show_notebook():
 
     return render_template('note.html')
 
+@app.route("/note")
+def show_notebook1():
+ 
+
+    return render_template('note1.html')
+
 app.run(debug=True)

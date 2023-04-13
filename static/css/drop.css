@@ -1,0 +1,40 @@
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav > li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #000;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
