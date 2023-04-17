@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Image Gallery</title>
+	<style>
+		/* Style for image gallery */
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.gallery img {
+			width: 300px;
+			height: 200px;
+			object-fit: cover;
+			margin: 10px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
+	</style>
+</head>
+<body>
+	<h1>My Image Gallery</h1>
+
+	<div class="gallery">
+		<img src="{{url_for('static',filename='images/testimonials/testimonial-image01.jpg')}}" alt="Image 1">
+		<img src="{{url_for('static',filename='images/testimonials/testimonial-image02.jpg')}}" alt="Image 2">
+		<img src="{{url_for('static',filename='images/testimonials/testimonial-image03.jpg')}}" alt="Image 3">
+		<img src="{{url_for('static',filename='images/testimonials/testimonial-image04.jpg')}}" alt="Image 4">
+		<img src="{{url_for('static',filename='images/20230323_165033_0000.jpg')}}" alt="Image 5">
+		<img src="{{url_for('static',filename='images/WhatsApp Image 2023-03-22 at 9.29.32 PM.jpeg')}}" alt="Image 6">
+	</div>
+
+</body>
+</html>

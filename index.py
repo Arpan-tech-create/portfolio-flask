@@ -51,4 +51,10 @@ def show_notebook2():
 
     return render_template('note2.html')
 
+@app.route("/gallery")
+def gal():
+ 
+
+    return render_template('gallery1.html')
+
 app.run(debug=True)
