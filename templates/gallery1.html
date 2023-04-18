@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>My Image Slider</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/home.css')}}">
 	<style>
 		/* Style for image slider */
 		.slider {
@@ -94,5 +95,6 @@
 			slides[slideIndex-1].classList.add("active");
 		}
 	</script>
+    <center><a href="/" class="btn">Return to Homepage</a></center>
 </body>
 </html>
